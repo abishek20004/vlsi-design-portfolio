@@ -1,6 +1,6 @@
 # VLSI Design Portfolio
 
-This repository showcases my hands-on RTL design and verification projects using Verilog HDL, along with simulation and synthesis results.
+This repository showcases my hands-on VLSI projects using Verilog HDL, along with simulation and synthesis results.
 
 ## Projects
 
