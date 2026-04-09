@@ -1,0 +1,13 @@
+Time resolution is 1 ps
+Time	Reset	Count
+15000	0	000
+25000	0	001
+35000	0	010
+45000	0	011
+55000	0	100
+65000	0	000
+75000	0	001
+85000	0	010
+95000	0	011
+105000	0	100
+$finish called at time : 105 ns : File "C:/Users/ADMIN/counter/counter.srcs/sim_1/new/tb_mod5.v" Line 53
