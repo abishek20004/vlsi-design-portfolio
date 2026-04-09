@@ -52,14 +52,6 @@ The design meets timing requirements with positive slack, indicating efficient i
 - Reset → Push button
 - Output → 3 LEDs (binary count)
 
-## Files Included
-- `rtl/` → Verilog design files
-- `tb/` → Testbench
-- `constraints/` → XDC constraints file
-- `sim/` → Simulation waveform and logs
-- `synthesis/` → Timing and utilization reports
-- `docs/` → RTL schematic
-
 ## Key Learning
 - Sequential logic design
 - Counter implementation
