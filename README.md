@@ -41,11 +41,6 @@ This repository showcases my hands-on RTL design and verification projects using
 ---
 
 ## 👨‍💻 Author
-**Abishek S**
-
----
-
-**email id - xia2020.abisheks@gmail.com**
-
----
-**linkedin - www.linkedin.com/in/abishek-s-848564258**
+**Abishek S*
+- xia2020.abisheks@gmail.com
+- www.linkedin.com/in/abishek-s-848564258
