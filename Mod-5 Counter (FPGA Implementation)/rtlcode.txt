@@ -1,0 +1,41 @@
+module top_mod5 (
+    input wire clk,      // 50 MHz clock
+    input wire rst,
+    output wire [2:0] led
+);
+
+reg [25:0] div_counter = 0;
+wire slow_clk;
+
+// Clock divider
+always @(posedge clk) begin
+    div_counter <= div_counter + 1;
+end
+
+assign slow_clk = div_counter[25];  // slow visible clock
+
+// Instantiate MOD-5 counter
+mod5_counter u1 (
+    .clk(slow_clk),
+    .rst(rst),
+    .count(led)
+);
+
+endmodule
+
+module mod5_counter (
+    input wire clk,
+    input wire rst,
+    output reg [2:0] count
+);
+
+always @(posedge clk or posedge rst) begin
+    if (rst)
+        count <= 3'b000;
+    else if (count == 3'd4)
+        count <= 3'b000;
+    else
+        count <= count + 1;
+end
+
+endmodule
